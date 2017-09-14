@@ -5,13 +5,16 @@
 using namespace std;
 
 class Division{
-public:
+private:
 	string name;
 	int quaterSales[4];
 	
+public:
+
+
 	void write();
 	void getSales();
-	
+
 	Division(string);
 };
 
@@ -25,7 +28,7 @@ void Division::write(){
 	file.open("output.txt", fstream::in | fstream::out | fstream::app);
 	file << "------" << name << "------" << endl;
 	file << "Quater Sales: " << endl;
-	
+
 	for(int i = 0; i < 4; i ++){
 		file << quaterSales[i] << endl;
 	}
@@ -50,7 +53,7 @@ void Division::getSales(){
 				quaterSales[i] = -1;
 			}
 		}while(quaterSales[i] == -1);
-		
+
 	}
 }
 

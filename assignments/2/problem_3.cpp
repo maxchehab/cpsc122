@@ -17,12 +17,12 @@ public:
 
 	string getName();
 	void setName(string);
-	
+
 	int getIdNumber();
 	void setIdNumber(int);
 
 	string getDepartment();
-	void setDepartment(string);	
+	void setDepartment(string);
 
 	string getPosition();
 	void setPosition(string);

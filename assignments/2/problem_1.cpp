@@ -3,12 +3,13 @@
 using namespace std;
 
 class Circle {/*Colon is not allowed before class declaration*/
-	private: /*Colon is required before private declaration*/
+	
+private: /*Colon is required before private declaration*/
 	double centerX;
 	double centerY;
 	double radius;
 
-	public: /*Colon is required before public declaration*/
+public: /*Colon is required before public declaration*/
 	void setCenter(double, double); /*A defined type is required before declaring method names.*/
 	void setRadius(double);  /*A defined type is required before declaring method names.*/
 
@@ -18,7 +19,7 @@ class DumbBell {/*Semicolon is not allowed before class declaration*/
 	public:
 	int weight; /*Make weight into a public variable because it accessed outside of the class*/
 	void setWeight(int);
-	
+
 };
 
 void DumbBell::setWeight(int w){ /*Class methods need to be defined with class name before definition*/
@@ -32,4 +33,3 @@ int main(){
 
 	return 0;
 }
-

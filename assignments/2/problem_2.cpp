@@ -18,8 +18,9 @@ private:
                         "October",
                         "November",
                         "December"};
-public:
 	int month, day, year;
+public:
+
 	void printDateA();
 	void printDateB();
 	void printDateC();
@@ -40,8 +41,8 @@ void Date::printDateC(){
 }
 
 void Date::readDate(){
-	
-	do{	
+
+	do{
 		if(month == -1){
 			cout << "Invalid response" << endl;
 		}
@@ -51,7 +52,7 @@ void Date::readDate(){
 			month = -1;
 		}
 	}while(month == -1);
-	
+
 	do{
         	if(day == -1){
         		cout << "Invalid response" << endl;
@@ -61,8 +62,8 @@ void Date::readDate(){
                 if(day > 31 || day < 1){
                         day = -1;
                 }
-        }while(day == -1);	
-	
+        }while(day == -1);
+
 	cout << "Year: ";
 	cin >> year;
 }
