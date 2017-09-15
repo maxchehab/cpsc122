@@ -1,0 +1,35 @@
+------West------
+Quater Sales: 
+1
+2
+3
+4
+
+------East------
+Quater Sales: 
+5
+6
+7
+8
+
+------North------
+Quater Sales: 
+9
+10
+11
+12
+
+------South------
+Quater Sales: 
+13
+14
+15
+16
+
+------West------
+Quater Sales: 
+1
+2
+3
+4
+

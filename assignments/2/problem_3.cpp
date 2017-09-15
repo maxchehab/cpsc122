@@ -92,15 +92,15 @@ void Employee::print(){
 }
 
 int main(){
-	Employee e1("Max Chehab",2, "Engineering", "CTO");
+	Employee e1("Jason Schagel",47899, "IT", "Programmer");
 	e1.print();
 	cout << endl;
 
-	Employee e2("Susan", 1);
+	Employee e2("Shawn Bowers", 39119, "Computer Science Department", "Chair");
 	e2.print();
 	cout << endl;
 
-	Employee e3;
+	Employee e3("Amanda Sheilds", 81774, "Administration", "Assistant");
 	e3.print();
 	return 0;
 }
