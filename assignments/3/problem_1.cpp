@@ -1,6 +1,6 @@
 /*
 -----Problem 1.1-----
-	This code works syntactically. But may not acheive what the programmer wants logically.
+	This code works syntactically but may not acheive what the programmer wants logically.
 	This will print out the entire character array including the terminating character '\0'.
 	To print out the entire character array one can loop through each entry within greeting.
 
